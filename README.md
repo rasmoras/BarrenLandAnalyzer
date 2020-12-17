@@ -1,5 +1,5 @@
 ## Barren Land Analysis
-@maroras
+
 A program to solve the following word problem:
 
 You have a farm of 400m by 600m where coordinates of the field are from (0, 0) to (399, 599). A portion of the farm is barren, and all the barren land is in the form of rectangles. Due to these rectangles of barren land, the remaining area of fertile land is in no particular shape. An area of fertile land is defined as the largest area of land that is not covered by any of the rectangles of barren land.
@@ -40,14 +40,20 @@ Output will be:
 ```
 
 ## Running the project
-1. Run AreaCalculatorTest.java for running against various inputs and outputs.
 
-2. Update AreaCalculatorTest.java to test for new test cases
+1. Run com/project/barrenland/processor/AreaCalculatorTest.java which shows results of the program with various inputs and outputs. 
 
-3. Run the print functionality for visualization of the problem. This can be run from Main.java and also in the test cases
+2. Update com/project/barrenland/processor/AreaCalculatorTest.java to test for new test cases
+
+3. Run the print functionality for visualization of the problem. This can be run from src/com/project/barrenland/runner/Main.java  and also in the test cases
 
 ## Testing
 
 AreaCalculatorTest.java contains basic JUnit tests to test given test cases plus a few additional cases 
+
+## Built With
+
+* [Maven](https://maven.apache.org/) - Dependency Management
+
 
 
